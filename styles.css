@@ -1,0 +1,73 @@
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.profile-card {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  width: 300px;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.name {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.location {
+  color: #a3ff00;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.bio {
+  font-style: italic;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+}
+
+.buttons .btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn.github {
+  background-color: #a3ff00;
+  color: #000;
+}
+
+.btn.github:hover {
+  background-color: #8dd700;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #555;
+}
