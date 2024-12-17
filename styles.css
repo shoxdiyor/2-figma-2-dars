@@ -1,3 +1,21 @@
+/* inter-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/inter-v18-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-v18-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 body {
   background-color: #121212;
   color: #fff;
@@ -9,7 +27,7 @@ body {
   margin: 0;
 }
 
-.profile-card {
+.profile__card {
   background-color: #1e1e1e;
   padding: 20px;
   border-radius: 15px;
@@ -18,31 +36,36 @@ body {
   width: 300px;
 }
 
-.profile-img {
+.profile__img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
   margin-bottom: 15px;
 }
 
-.name {
+.h2__name {
   font-size: 1.5em;
   margin: 10px 0;
 }
 
-.location {
+.h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
   color: #a3ff00;
   font-size: 0.9em;
   margin-bottom: 10px;
 }
 
 .bio {
-  font-style: italic;
   font-size: 0.9em;
   margin-bottom: 20px;
 }
 
 .buttons .btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
   display: block;
   width: 100%;
   padding: 10px;
@@ -55,6 +78,9 @@ body {
 }
 
 .btn.github {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
   background-color: #a3ff00;
   color: #000;
 }
